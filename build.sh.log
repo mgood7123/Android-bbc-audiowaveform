@@ -1,0 +1,1001 @@
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking assert.h usability... yes
+checking assert.h presence... yes
+checking for assert.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking whether byte ordering is bigendian... no
+checking for pid_t... yes
+checking for int... yes
+checking size of int... 4
+checking for long... yes
+checking size of long... 8
+checking for long long... yes
+checking size of long long... 8
+checking for waitpid... yes
+checking for fcntl... yes
+checking for pipe... yes
+checking for fork... yes
+checking whether to optimize for speed or for accuracy... default
+checking for architecture-specific fixed-point math routines... DEFAULT
+configure: WARNING: default fixed-point math will yield limited accuracy
+checking for ISO/IEC interpretation... best accepted practices
+checking whether to enable profiling... no
+checking whether to enable debugging... default
+checking whether to enable experimental code... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating msvc++/Makefile
+config.status: creating libmad.list
+config.status: creating config.h
+config.status: executing depfiles commands
+cd . && /bin/bash /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libmad-0.15.1b/missing --run aclocal-1.8
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libmad-0.15.1b/missing: line 46: aclocal-1.8: command not found
+WARNING: `aclocal-1.8' is missing on your system.  You should only need it if
+         you modified `acinclude.m4' or `configure.ac'.  You might want
+         to install the `Automake' and `Perl' packages.  Grab them from
+         any GNU archive site.
+ cd . && /bin/bash /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libmad-0.15.1b/missing --run automake-1.8 --foreign
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libmad-0.15.1b/missing: line 46: automake-1.8: command not found
+WARNING: `automake-1.8' is missing on your system.  You should only need it if
+         you modified `Makefile.am', `acinclude.m4' or `configure.ac'.
+         You might want to install the `Automake' and `Perl' packages.
+         Grab them from any GNU archive site.
+cd . && /bin/bash /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libmad-0.15.1b/missing --run autoconf
+configure.ac:65: warning: AC_CACHE_VAL(lt_prog_compiler_static_works, ...): suspicious cache-id, must contain _cv_ to be cached
+../../lib/autoconf/general.m4:2042: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2063: AC_CACHE_CHECK is expanded from...
+aclocal.m4:601: AC_LIBTOOL_LINKER_OPTION is expanded from...
+aclocal.m4:2452: _LT_AC_LANG_C_CONFIG is expanded from...
+aclocal.m4:2451: AC_LIBTOOL_LANG_C_CONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works, ...): suspicious cache-id, must contain _cv_ to be cached
+../../lib/autoconf/general.m4:2042: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2063: AC_CACHE_CHECK is expanded from...
+aclocal.m4:558: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4494: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:2452: _LT_AC_LANG_C_CONFIG is expanded from...
+aclocal.m4:2451: AC_LIBTOOL_LANG_C_CONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2672: _AC_LINK_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2689: AC_LINK_IFELSE is expanded from...
+aclocal.m4:248: _LT_AC_SYS_LIBPATH_AIX is expanded from...
+aclocal.m4:4956: AC_LIBTOOL_PROG_LD_SHLIBS is expanded from...
+aclocal.m4:2452: _LT_AC_LANG_C_CONFIG is expanded from...
+aclocal.m4:2451: AC_LIBTOOL_LANG_C_CONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2672: _AC_LINK_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2689: AC_LINK_IFELSE is expanded from...
+aclocal.m4:248: _LT_AC_SYS_LIBPATH_AIX is expanded from...
+aclocal.m4:2593: _LT_AC_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:2592: AC_LIBTOOL_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:1622: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works_CXX, ...): suspicious cache-id, must contain _cv_ to be cached
+../../lib/autoconf/general.m4:2042: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2063: AC_CACHE_CHECK is expanded from...
+aclocal.m4:558: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4494: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:2593: _LT_AC_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:2592: AC_LIBTOOL_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:1622: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works_F77, ...): suspicious cache-id, must contain _cv_ to be cached
+../../lib/autoconf/general.m4:2042: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2063: AC_CACHE_CHECK is expanded from...
+aclocal.m4:558: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4494: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:3619: _LT_AC_LANG_F77_CONFIG is expanded from...
+aclocal.m4:3618: AC_LIBTOOL_LANG_F77_CONFIG is expanded from...
+aclocal.m4:1622: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works_GCJ, ...): suspicious cache-id, must contain _cv_ to be cached
+../../lib/autoconf/general.m4:2042: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2063: AC_CACHE_CHECK is expanded from...
+aclocal.m4:558: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4494: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:3719: _LT_AC_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:3718: AC_LIBTOOL_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:1622: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2672: _AC_LINK_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2689: AC_LINK_IFELSE is expanded from...
+aclocal.m4:248: _LT_AC_SYS_LIBPATH_AIX is expanded from...
+aclocal.m4:4956: AC_LIBTOOL_PROG_LD_SHLIBS is expanded from...
+aclocal.m4:3719: _LT_AC_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:3718: AC_LIBTOOL_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:1622: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+/bin/bash ./config.status --recheck
+running /bin/bash ./configure   --no-create --no-recursion
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables...
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for xlf... no
+checking for f77... f77
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether f77 accepts -g... yes
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if gcc static flag  works... yes
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC
+checking if g++ PIC flag -fPIC works... yes
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+appending configuration tag "F77" to libtool
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for f77 option to produce PIC... -fPIC
+checking if f77 PIC flag -fPIC works... yes
+checking if f77 supports -c -o file.o... yes
+checking whether the f77 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking assert.h usability... yes
+checking assert.h presence... yes
+checking for assert.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking whether byte ordering is bigendian... no
+checking for pid_t... yes
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking for waitpid... yes
+checking for fcntl... yes
+checking for pipe... yes
+checking for fork... yes
+checking whether to optimize for speed or for accuracy... default
+checking for architecture-specific fixed-point math routines... 64BIT
+checking for ISO/IEC interpretation... best accepted practices
+checking whether to enable profiling... no
+checking whether to enable debugging... default
+checking whether to enable experimental code... no
+configure: creating ./config.status
+ /bin/bash ./config.status
+config.status: creating Makefile
+config.status: WARNING:  'Makefile.in' seems to ignore the --datarootdir setting
+config.status: creating msvc++/Makefile
+config.status: WARNING:  'msvc++/Makefile.in' seems to ignore the --datarootdir setting
+config.status: creating libmad.list
+config.status: creating config.h
+config.status: executing depfiles commands
+cd . && /bin/sh /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libmad-0.15.1b/missing --run autoheader
+configure.ac:65: warning: AC_CACHE_VAL(lt_prog_compiler_static_works, ...): suspicious cache-id, must contain _cv_ to be cached
+../../lib/autoconf/general.m4:2042: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2063: AC_CACHE_CHECK is expanded from...
+aclocal.m4:601: AC_LIBTOOL_LINKER_OPTION is expanded from...
+aclocal.m4:2452: _LT_AC_LANG_C_CONFIG is expanded from...
+aclocal.m4:2451: AC_LIBTOOL_LANG_C_CONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works, ...): suspicious cache-id, must contain _cv_ to be cached
+../../lib/autoconf/general.m4:2042: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2063: AC_CACHE_CHECK is expanded from...
+aclocal.m4:558: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4494: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:2452: _LT_AC_LANG_C_CONFIG is expanded from...
+aclocal.m4:2451: AC_LIBTOOL_LANG_C_CONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2672: _AC_LINK_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2689: AC_LINK_IFELSE is expanded from...
+aclocal.m4:248: _LT_AC_SYS_LIBPATH_AIX is expanded from...
+aclocal.m4:4956: AC_LIBTOOL_PROG_LD_SHLIBS is expanded from...
+aclocal.m4:2452: _LT_AC_LANG_C_CONFIG is expanded from...
+aclocal.m4:2451: AC_LIBTOOL_LANG_C_CONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2672: _AC_LINK_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2689: AC_LINK_IFELSE is expanded from...
+aclocal.m4:248: _LT_AC_SYS_LIBPATH_AIX is expanded from...
+aclocal.m4:2593: _LT_AC_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:2592: AC_LIBTOOL_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:1622: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works_CXX, ...): suspicious cache-id, must contain _cv_ to be cached
+../../lib/autoconf/general.m4:2042: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2063: AC_CACHE_CHECK is expanded from...
+aclocal.m4:558: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4494: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:2593: _LT_AC_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:2592: AC_LIBTOOL_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:1622: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works_F77, ...): suspicious cache-id, must contain _cv_ to be cached
+../../lib/autoconf/general.m4:2042: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2063: AC_CACHE_CHECK is expanded from...
+aclocal.m4:558: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4494: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:3619: _LT_AC_LANG_F77_CONFIG is expanded from...
+aclocal.m4:3618: AC_LIBTOOL_LANG_F77_CONFIG is expanded from...
+aclocal.m4:1622: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works_GCJ, ...): suspicious cache-id, must contain _cv_ to be cached
+../../lib/autoconf/general.m4:2042: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2063: AC_CACHE_CHECK is expanded from...
+aclocal.m4:558: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4494: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:3719: _LT_AC_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:3718: AC_LIBTOOL_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:1622: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+configure.ac:65: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2672: _AC_LINK_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2689: AC_LINK_IFELSE is expanded from...
+aclocal.m4:248: _LT_AC_SYS_LIBPATH_AIX is expanded from...
+aclocal.m4:4956: AC_LIBTOOL_PROG_LD_SHLIBS is expanded from...
+aclocal.m4:3719: _LT_AC_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:3718: AC_LIBTOOL_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:1622: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:87: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:67: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:32: AC_PROG_LIBTOOL is expanded from...
+configure.ac:65: the top level
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/sh ./config.status config.h
+config.status: creating config.h
+(sed -e '1s|.*|/*|' -e '1b' -e '$s|.*| */|' -e '$b'  \
+        -e 's/^.*/ *&/' ./COPYRIGHT; echo;  \
+echo "# ifdef __cplusplus";  \
+echo 'extern "C" {';  \
+echo "# endif"; echo;  \
+if [ ".-DFPM_64BIT" != "." ]; then  \
+        echo ".-DFPM_64BIT" | sed -e 's|^\.-D|# define |'; echo;  \
+fi;  \
+sed -ne 's/^# *define  *\(HAVE_.*_ASM\).*/# define \1/p'  \
+        config.h; echo;  \
+sed -ne 's/^# *define  *OPT_\(SPEED\|ACCURACY\).*/# define OPT_\1/p'  \
+        config.h; echo;  \
+sed -ne 's/^# *define  *\(SIZEOF_.*\)/# define \1/p'  \
+        config.h; echo;  \
+for header in version.h fixed.h bit.h timer.h stream.h frame.h synth.h decoder.h; do  \
+        echo;  \
+        sed -n -f ./mad.h.sed ./$header;  \
+done; echo;  \
+echo "# ifdef __cplusplus";  \
+echo '}';  \
+echo "# endif") >mad.h
+make  all-recursive
+make[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libmad-0.15.1b'
+make[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libmad-0.15.1b'
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT version.lo -MD -MP -MF ".deps/version.Tpo" -c -o version.lo version.c; \
+then mv -f ".deps/version.Tpo" ".deps/version.Plo"; else rm -f ".deps/version.Tpo"; exit 1; fi
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT version.lo -MD -MP -MF .deps/version.Tpo -c version.c  -fPIC -DPIC -o .libs/version.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT version.lo -MD -MP -MF .deps/version.Tpo -c version.c -o version.o >/dev/null 2>&1
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT fixed.lo -MD -MP -MF ".deps/fixed.Tpo" -c -o fixed.lo fixed.c; \
+then mv -f ".deps/fixed.Tpo" ".deps/fixed.Plo"; else rm -f ".deps/fixed.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT fixed.lo -MD -MP -MF .deps/fixed.Tpo -c fixed.c  -fPIC -DPIC -o .libs/fixed.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT fixed.lo -MD -MP -MF .deps/fixed.Tpo -c fixed.c -o fixed.o >/dev/null 2>&1
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT bit.lo -MD -MP -MF ".deps/bit.Tpo" -c -o bit.lo bit.c; \
+then mv -f ".deps/bit.Tpo" ".deps/bit.Plo"; else rm -f ".deps/bit.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT bit.lo -MD -MP -MF .deps/bit.Tpo -c bit.c  -fPIC -DPIC -o .libs/bit.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT bit.lo -MD -MP -MF .deps/bit.Tpo -c bit.c -o bit.o >/dev/null 2>&1
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT timer.lo -MD -MP -MF ".deps/timer.Tpo" -c -o timer.lo timer.c; \
+then mv -f ".deps/timer.Tpo" ".deps/timer.Plo"; else rm -f ".deps/timer.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c timer.c  -fPIC -DPIC -o .libs/timer.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c timer.c -o timer.o >/dev/null 2>&1
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT stream.lo -MD -MP -MF ".deps/stream.Tpo" -c -o stream.lo stream.c; \
+then mv -f ".deps/stream.Tpo" ".deps/stream.Plo"; else rm -f ".deps/stream.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT stream.lo -MD -MP -MF .deps/stream.Tpo -c stream.c  -fPIC -DPIC -o .libs/stream.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT stream.lo -MD -MP -MF .deps/stream.Tpo -c stream.c -o stream.o >/dev/null 2>&1
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT frame.lo -MD -MP -MF ".deps/frame.Tpo" -c -o frame.lo frame.c; \
+then mv -f ".deps/frame.Tpo" ".deps/frame.Plo"; else rm -f ".deps/frame.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT frame.lo -MD -MP -MF .deps/frame.Tpo -c frame.c  -fPIC -DPIC -o .libs/frame.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT frame.lo -MD -MP -MF .deps/frame.Tpo -c frame.c -o frame.o >/dev/null 2>&1
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT synth.lo -MD -MP -MF ".deps/synth.Tpo" -c -o synth.lo synth.c; \
+then mv -f ".deps/synth.Tpo" ".deps/synth.Plo"; else rm -f ".deps/synth.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT synth.lo -MD -MP -MF .deps/synth.Tpo -c synth.c  -fPIC -DPIC -o .libs/synth.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT synth.lo -MD -MP -MF .deps/synth.Tpo -c synth.c -o synth.o >/dev/null 2>&1
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT decoder.lo -MD -MP -MF ".deps/decoder.Tpo" -c -o decoder.lo decoder.c; \
+then mv -f ".deps/decoder.Tpo" ".deps/decoder.Plo"; else rm -f ".deps/decoder.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT decoder.lo -MD -MP -MF .deps/decoder.Tpo -c decoder.c  -fPIC -DPIC -o .libs/decoder.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT decoder.lo -MD -MP -MF .deps/decoder.Tpo -c decoder.c -o decoder.o >/dev/null 2>&1
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT layer12.lo -MD -MP -MF ".deps/layer12.Tpo" -c -o layer12.lo layer12.c; \
+then mv -f ".deps/layer12.Tpo" ".deps/layer12.Plo"; else rm -f ".deps/layer12.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT layer12.lo -MD -MP -MF .deps/layer12.Tpo -c layer12.c  -fPIC -DPIC -o .libs/layer12.o
+layer12.c: In function 'mad_layer_II':
+layer12.c:465:7: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+       if (allocation[ch][sb])
+       ^~
+layer12.c:467:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  if (mad_bit_nextbyte(&stream->ptr) > stream->next_frame)
+  ^~
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT layer12.lo -MD -MP -MF .deps/layer12.Tpo -c layer12.c -o layer12.o >/dev/null 2>&1
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT layer3.lo -MD -MP -MF ".deps/layer3.Tpo" -c -o layer3.lo layer3.c; \
+then mv -f ".deps/layer3.Tpo" ".deps/layer3.Plo"; else rm -f ".deps/layer3.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT layer3.lo -MD -MP -MF .deps/layer3.Tpo -c layer3.c  -fPIC -DPIC -o .libs/layer3.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT layer3.lo -MD -MP -MF .deps/layer3.Tpo -c layer3.c -o layer3.o >/dev/null 2>&1
+if /bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT     -Wall -g -O2 -MT huffman.lo -MD -MP -MF ".deps/huffman.Tpo" -c -o huffman.lo huffman.c; \
+then mv -f ".deps/huffman.Tpo" ".deps/huffman.Plo"; else rm -f ".deps/huffman.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT huffman.lo -MD -MP -MF .deps/huffman.Tpo -c huffman.c  -fPIC -DPIC -o .libs/huffman.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -DFPM_64BIT -Wall -g -O2 -MT huffman.lo -MD -MP -MF .deps/huffman.Tpo -c huffman.c -o huffman.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link gcc  -Wall -g -O2   -o libmad.la -rpath /usr/local/lib -version-info 2:1:2 version.lo fixed.lo bit.lo timer.lo stream.lo frame.lo synth.lo decoder.lo layer12.lo layer3.lo huffman.lo
+gcc -shared  .libs/version.o .libs/fixed.o .libs/bit.o .libs/timer.o .libs/stream.o .libs/frame.o .libs/synth.o .libs/decoder.o .libs/layer12.o .libs/layer3.o .libs/huffman.o   -Wl,-soname -Wl,libmad.so.0 -o .libs/libmad.so.0.2.1
+(cd .libs && rm -f libmad.so.0 && ln -s libmad.so.0.2.1 libmad.so.0)
+(cd .libs && rm -f libmad.so && ln -s libmad.so.0.2.1 libmad.so)
+ar cru .libs/libmad.a  version.o fixed.o bit.o timer.o stream.o frame.o synth.o decoder.o layer12.o layer3.o huffman.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib .libs/libmad.a
+creating libmad.la
+(cd .libs && rm -f libmad.la && ln -s ../libmad.la libmad.la)
+make[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libmad-0.15.1b'
+make[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libmad-0.15.1b'
+rm: cannot remove 'autom4te.cache': Is a directory
+rm -rf debug_BUILD debug_EXECUTABLE
+rm -rf release_BUILD release_EXECUTABLE
+mkdir debug_BUILD
+cd debug_BUILD ; (test -e ../debug_EXECUTABLE || (mkdir EXECUTABLES ; ln -sv debug_BUILD/EXECUTABLES ../debug_EXECUTABLE)) ; cmake -DCMAKE_BUILD_TYPE=Debug .. ; make #&& (mv -v EXECUTABLES/* ../debug_EXECUTABLE && rmdir EXECUTABLES; true) || (rm -rf EXECUTABLES; false)
+'../debug_EXECUTABLE' -> 'debug_BUILD/EXECUTABLES'
+-- The C compiler identification is GNU 8.3.0
+-- The CXX compiler identification is GNU 8.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python (found version "2.7.16")
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- CMAKE_VERSION=3.13.4
+-- Build type: Debug
+-- CMAKE_MODULE_PATH='/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/cmake/modules'
+-- Building version 1.4.0
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.36")
+-- Found LibSndFile: /usr/lib/x86_64-linux-gnu/libsndfile.so
+-- LIBSNDFILE_INCLUDE_DIRS='/usr/include'
+-- LIBSNDFILE_LIBRARIES=/usr/lib/x86_64-linux-gnu/libsndfile.so
+--
+--
+-- Checking large files support...
+--
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+--
+-- Checking size of off_t without any definitions:
+-- Check size of off_t
+-- Check size of off_t - done
+-- Checking of off_t without any definitions: 8
+--
+-- Result of checking large files support: supported
+
+
+-- Found ALSA: /usr/lib/x86_64-linux-gnu/libasound.so (found version "1.1.8")
+-- Could NOT find Sndio (missing: SNDIO_LIBRARY SNDIO_INCLUDE_DIR)
+-- Found VorbisEnc: /usr/lib/x86_64-linux-gnu/libvorbisenc.so (found version "1.3.6")
+-- Found FLAC: /usr/lib/x86_64-linux-gnu/libFLAC.so (found version "1.3.2")
+-- Could NOT find Opus (missing: OPUS_LIBRARY OPUS_INCLUDE_DIR)
+-- Found Speex: /usr/lib/x86_64-linux-gnu/libspeex.so (found version "1.2rc1")
+-- Could NOT find SQLITE3 (missing: SQLITE3_LIBRARY SQLITE3_INCLUDE_DIR)
+-- Looking for byteswap.h
+-- Looking for byteswap.h - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for direct.h
+-- Looking for direct.h - not found
+-- Looking for endian.h
+-- Looking for endian.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for io.h
+-- Looking for io.h - not found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for locale.h
+-- Looking for locale.h - found
+-- Looking for sys/wait.h
+-- Looking for sys/wait.h - found
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of wchar_t
+-- Check size of wchar_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Looking for floor in m
+-- Looking for floor in m - found
+-- Looking for sqlite3_close in sqlite3
+-- Looking for sqlite3_close in sqlite3 - not found
+-- Looking for fstat
+-- Looking for fstat - found
+-- Looking for fstat64
+-- Looking for fstat64 - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for gmtime
+-- Looking for gmtime - found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - found
+-- Looking for localtime
+-- Looking for localtime - found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for lseek
+-- Looking for lseek - found
+-- Looking for open
+-- Looking for open - found
+-- Looking for read
+-- Looking for read - found
+-- Looking for write
+-- Looking for write - found
+-- Looking for lrint
+-- Looking for lrint - found
+-- Looking for lrintf
+-- Looking for lrintf - found
+-- Looking for ftruncate
+-- Looking for ftruncate - found
+-- Looking for fsync
+-- Looking for fsync - found
+-- Looking for pipe
+-- Looking for pipe - found
+-- Looking for setlocale
+-- Looking for setlocale - found
+-- Looking for waitpid
+-- Looking for waitpid - found
+-- Looking for S_IRGRP
+-- Looking for S_IRGRP - found
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Checking for inline...
+-- Checking for inline... supported
+-- Checking processor clipping capabilities...
+-- Checking processor clipping capabilities... none
+-- The following features have been enabled:
+
+ * BUILD_TESTING, build tests
+ * ENABLE_CPACK, enable CPack support
+ * ENABLE_PACKAGE_CONFIG, generate and install package config file
+
+-- The following OPTIONAL packages have been found:
+
+ * PythonInterp
+ * Threads
+ * ZLIB
+ * LibSndFile
+ * ALSA
+ * Speex, an audio codec tuned for speech, <www.speex.org/>
+   Enables experemental Speex support
+
+-- The following RECOMMENDED packages have been found:
+
+ * VorbisEnc, open source lossy audio codec, <www.vorbis.com/>
+   Enables Vorbis support
+ * FLAC, Free Lossless Audio Codec Library, <www.xiph.org/flac/>
+   Enables FLAC support
+
+-- The following REQUIRED packages have been found:
+
+ * PNG
+
+-- The following features have been disabled:
+
+ * BUILD_SHARED_LIBS, build shared libraries
+ * ENABLE_EXTERNAL_LIBS, enable FLAC, Vorbis, and Opus codecs
+ * ENABLE_EXPERIMENTAL, enable experimental code
+ * BUILD_REGTEST, build regtest
+ * ENABLE_CPU_CLIP, Enable tricky cpu specific clipper
+ * ENABLE_BOW_DOCS, enable black-on-white html docs
+
+-- The following OPTIONAL packages have not been found:
+
+ * Sndio
+ * SQLite3, light weight SQL database engine., <www.sqlite.org/>
+   Enables regtest
+
+-- The following RECOMMENDED packages have not been found:
+
+ * Opus, Standardized open source low-latency fullband codec, <www.opus-codec.org/>
+   Enables experimental Opus support
+
+-- Boost version: 1.67.0
+-- Found the following Boost libraries:
+--   program_options
+--   filesystem
+--   regex
+--   system
+-- Boost_INCLUDE_DIRS='/usr/include'
+-- Boost_LIBRARIES='/usr/lib/x86_64-linux-gnu/libboost_program_options.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libboost_system.so'
+-- CMAKE_CXX_COMPILER_VERSION='8.3.0'
+-- CMAKE_CXX_FLAGS='-std=c++11 -Wall -Wextra -Wconversion -pedantic -DBOOST_FILESYSTEM_NO_DEPRECATED'
+-- CMAKE_CXX_FLAGS_DEBUG='-g'
+-- CMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG'
+-- CMAKE_CXX_COMPILE_OBJECT='<CMAKE_CXX_COMPILER>  <DEFINES> <INCLUDES> <FLAGS> -o <OBJECT> -c <SOURCE>'
+-- CMAKE_INSTALL_PREFIX='/usr/local'
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD
+make[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target gtest
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  0%] Building CXX object gtest/googletest-src/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  0%] Linking CXX static library ../../../lib/libgtestd.a
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  0%] Built target gtest
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target gmock
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  0%] Building CXX object gtest/googletest-src/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[  1%] Linking CXX static library ../../../lib/libgmockd.a
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  1%] Built target gmock
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target gmock_main
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  1%] Building CXX object gtest/googletest-src/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[  2%] Linking CXX static library ../../../lib/libgmock_maind.a
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  2%] Built target gmock_main
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target gtest_main
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  3%] Building CXX object gtest/googletest-src/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[  3%] Linking CXX static library ../../../lib/libgtest_maind.a
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  3%] Built target gtest_main
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target doc
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  4%] Generating doc/audiowaveform.1.gz
+[  4%] Generating doc/audiowaveform.5.gz
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  4%] Built target doc
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target gd
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[  5%] Building C object audiowaveform/src/dependencies/LIB_GD/CMakeFiles/gd.dir/src/gd.c.o
+[  5%] Building C object audiowaveform/src/dependencies/LIB_GD/CMakeFiles/gd.dir/src/gdfonts.c.o
+[  6%] Building C object audiowaveform/src/dependencies/LIB_GD/CMakeFiles/gd.dir/src/gd_png.c.o
+[  6%] Building C object audiowaveform/src/dependencies/LIB_GD/CMakeFiles/gd.dir/src/gdhelpers.c.o
+[  7%] Building C object audiowaveform/src/dependencies/LIB_GD/CMakeFiles/gd.dir/src/gdtables.c.o
+[  7%] Building C object audiowaveform/src/dependencies/LIB_GD/CMakeFiles/gd.dir/src/gd_color.c.o
+[  8%] Building C object audiowaveform/src/dependencies/LIB_GD/CMakeFiles/gd.dir/src/gd_security.c.o
+[  8%] Building C object audiowaveform/src/dependencies/LIB_GD/CMakeFiles/gd.dir/src/gd_io.c.o
+[  9%] Building C object audiowaveform/src/dependencies/LIB_GD/CMakeFiles/gd.dir/src/gd_io_dp.c.o
+[  9%] Building C object audiowaveform/src/dependencies/LIB_GD/CMakeFiles/gd.dir/src/gd_io_file.c.o
+[ 10%] Linking C shared library libgd.so
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[ 10%] Built target gd
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target libid3tag
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[ 11%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/version.c.o
+[ 11%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/ucs4.c.o
+[ 12%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/latin1.c.o
+[ 12%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/utf16.c.o
+[ 13%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/utf8.c.o
+[ 13%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/parse.c.o
+[ 14%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/render.c.o
+[ 14%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/field.c.o
+[ 15%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/frametype.c.o
+[ 15%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/compat.c.o
+[ 16%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/genre.c.o
+[ 16%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/frame.c.o
+[ 17%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/crc.c.o
+[ 17%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/util.c.o
+[ 18%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/tag.c.o
+[ 18%] Building C object audiowaveform/src/dependencies/libid3tag-0.15.1b/CMakeFiles/libid3tag.dir/file.c.o
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libid3tag-0.15.1b/file.c: In function ‘id3_file_fdopen’:
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libid3tag-0.15.1b/file.c:466:15: warning: implicit declaration of function ‘dup’ [-Wimplicit-function-declaration]
+     save_fd = dup(fd);
+               ^~~
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libid3tag-0.15.1b/file.c:470:5: warning: implicit declaration of function ‘dup2’ [-Wimplicit-function-declaration]
+     dup2(save_fd, fd);
+     ^~~~
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/dependencies/libid3tag-0.15.1b/file.c:471:5: warning: implicit declaration of function ‘close’; did you mean ‘pclose’? [-Wimplicit-function-declaration]
+     close(save_fd);
+     ^~~~~
+     pclose
+[ 19%] Linking C static library liblibid3tag.a
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[ 19%] Built target libid3tag
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target audiowaveform
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[ 19%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/Main.cpp.o
+[ 19%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/AudioFileReader.cpp.o
+[ 20%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/AudioProcessor.cpp.o
+[ 20%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/BStdFile.cpp.o
+[ 21%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/DurationCalculator.cpp.o
+[ 21%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/Error.cpp.o
+[ 22%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/FileFormat.cpp.o
+[ 22%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/FileUtil.cpp.o
+[ 23%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/GdImageRenderer.cpp.o
+[ 23%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/MathUtil.cpp.o
+[ 24%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/Mp3AudioFileReader.cpp.o
+[ 24%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/Options.cpp.o
+[ 25%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/OptionHandler.cpp.o
+[ 25%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/ProgressReporter.cpp.o
+[ 26%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/Rgba.cpp.o
+[ 26%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/SndFileAudioFileReader.cpp.o
+[ 27%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/TimeUtil.cpp.o
+[ 27%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/WaveformBuffer.cpp.o
+[ 28%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/WaveformColors.cpp.o
+[ 28%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/WaveformGenerator.cpp.o
+[ 29%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/WaveformRescaler.cpp.o
+[ 29%] Building CXX object audiowaveform/CMakeFiles/audiowaveform.dir/src/WavFileWriter.cpp.o
+[ 30%] Building C object audiowaveform/CMakeFiles/audiowaveform.dir/src/madlld-1.1p1/bstdfile.c.o
+[ 30%] Linking CXX executable audiowaveform
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[ 30%] Built target audiowaveform
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target audiowaveform_tests
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[ 31%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/AudioFileReader.cpp.o
+[ 31%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/AudioProcessor.cpp.o
+[ 32%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/BStdFile.cpp.o
+[ 32%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/DurationCalculator.cpp.o
+[ 33%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/Error.cpp.o
+[ 33%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/FileFormat.cpp.o
+[ 34%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/FileUtil.cpp.o
+[ 34%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/GdImageRenderer.cpp.o
+[ 35%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/MathUtil.cpp.o
+[ 35%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/Mp3AudioFileReader.cpp.o
+[ 36%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/Options.cpp.o
+[ 36%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/OptionHandler.cpp.o
+[ 37%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/ProgressReporter.cpp.o
+[ 37%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/Rgba.cpp.o
+[ 38%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/SndFileAudioFileReader.cpp.o
+[ 38%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/TimeUtil.cpp.o
+[ 39%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/WaveformBuffer.cpp.o
+[ 39%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/WaveformColors.cpp.o
+[ 39%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/WaveformGenerator.cpp.o
+[ 40%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/WaveformRescaler.cpp.o
+[ 40%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/WavFileWriter.cpp.o
+[ 41%] Building C object audiowaveform/CMakeFiles/audiowaveform_tests.dir/src/madlld-1.1p1/bstdfile.c.o
+[ 41%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/FileFormatTest.cpp.o
+[ 42%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/FileUtilTest.cpp.o
+[ 42%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/GdImageRendererTest.cpp.o
+[ 43%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/MathUtilTest.cpp.o
+[ 43%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/Mp3AudioFileReaderTest.cpp.o
+[ 44%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/OptionsTest.cpp.o
+[ 44%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/OptionHandlerTest.cpp.o
+[ 45%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/ProgressReporterTest.cpp.o
+[ 45%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/RgbaTest.cpp.o
+[ 46%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/SndFileAudioFileReaderTest.cpp.o
+[ 46%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/TimeUtilTest.cpp.o
+[ 47%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/WavFileWriterTest.cpp.o
+[ 47%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/WaveformBufferTest.cpp.o
+[ 48%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/WaveformGeneratorTest.cpp.o
+[ 48%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/WaveformRescalerTest.cpp.o
+[ 49%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/util/FileDeleter.cpp.o
+[ 49%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/util/FileUtil.cpp.o
+[ 50%] Building CXX object audiowaveform/CMakeFiles/audiowaveform_tests.dir/test/util/Streams.cpp.o
+[ 50%] Linking CXX executable audiowaveform_tests
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[ 50%] Built target audiowaveform_tests
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target sndfile
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[ 50%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/common.c.o
+[ 51%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/file_io.c.o
+[ 51%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/command.c.o
+[ 52%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/pcm.c.o
+[ 52%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ulaw.c.o
+[ 53%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/alaw.c.o
+[ 53%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/float32.c.o
+[ 54%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/double64.c.o
+[ 54%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ima_adpcm.c.o
+[ 54%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ms_adpcm.c.o
+[ 55%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/gsm610.c.o
+[ 55%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/dwvw.c.o
+[ 56%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/vox_adpcm.c.o
+[ 56%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/interleave.c.o
+[ 57%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/strings.c.o
+[ 57%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/dither.c.o
+[ 58%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/cart.c.o
+[ 58%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/broadcast.c.o
+[ 59%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/audio_detect.c.o
+[ 59%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ima_oki_adpcm.c.o
+[ 60%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/alac.c.o
+[ 60%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/chunk.c.o
+[ 61%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ogg.c.o
+[ 61%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/chanmap.c.o
+[ 62%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/id3.c.o
+[ 62%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/sndfile.c.o
+[ 63%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/aiff.c.o
+[ 63%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/au.c.o
+[ 64%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/avr.c.o
+[ 64%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/caf.c.o
+[ 65%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/dwd.c.o
+[ 65%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/flac.c.o
+[ 66%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/g72x.c.o
+[ 66%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/htk.c.o
+[ 67%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ircam.c.o
+[ 67%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/macos.c.o
+[ 68%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/mat4.c.o
+[ 68%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/mat5.c.o
+[ 69%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/nist.c.o
+[ 69%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/paf.c.o
+[ 70%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/pvf.c.o
+[ 70%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/raw.c.o
+[ 71%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/rx2.c.o
+[ 71%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/sd2.c.o
+[ 72%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/sds.c.o
+[ 72%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/svx.c.o
+[ 73%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/txw.c.o
+[ 73%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/voc.c.o
+[ 74%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/wve.c.o
+[ 74%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/w64.c.o
+[ 74%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/wavlike.c.o
+[ 75%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/wav.c.o
+[ 75%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/xi.c.o
+[ 76%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/mpc2k.c.o
+[ 76%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/rf64.c.o
+[ 77%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ogg_vorbis.c.o
+[ 77%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ogg_speex.c.o
+[ 78%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ogg_pcm.c.o
+[ 78%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ogg_opus.c.o
+[ 79%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ogg_vcomment.c.o
+[ 79%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/nms_adpcm.c.o
+[ 80%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/add.c.o
+[ 80%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/code.c.o
+[ 81%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/decode.c.o
+[ 81%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/gsm_create.c.o
+[ 82%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/gsm_decode.c.o
+[ 82%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/gsm_destroy.c.o
+[ 83%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/gsm_encode.c.o
+[ 83%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/gsm_option.c.o
+[ 84%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/long_term.c.o
+[ 84%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/lpc.c.o
+[ 85%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/preprocess.c.o
+[ 85%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/rpe.c.o
+[ 86%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/short_term.c.o
+[ 86%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/GSM610/table.c.o
+[ 87%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/G72x/g721.c.o
+[ 87%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/G72x/g723_16.c.o
+[ 88%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/G72x/g723_24.c.o
+[ 88%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/G72x/g723_40.c.o
+[ 89%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/G72x/g72x.c.o
+[ 89%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ALAC/ALACBitUtilities.c.o
+[ 90%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ALAC/ag_dec.c.o
+[ 90%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ALAC/ag_enc.c.o
+[ 91%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ALAC/dp_dec.c.o
+[ 91%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ALAC/dp_enc.c.o
+[ 92%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ALAC/matrix_dec.c.o
+[ 92%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ALAC/matrix_enc.c.o
+[ 93%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ALAC/alac_decoder.c.o
+[ 93%] Building C object audiowaveform/src/dependencies/libsndfile/CMakeFiles/sndfile.dir/src/ALAC/alac_encoder.c.o
+[ 94%] Linking C static library libsndfile.a
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[ 94%] Built target sndfile
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+Scanning dependencies of target libmad
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[3]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[ 94%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/version.c.o
+[ 95%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/fixed.c.o
+[ 95%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/bit.c.o
+[ 96%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/timer.c.o
+[ 96%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/stream.c.o
+[ 97%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/frame.c.o
+[ 97%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/synth.c.o
+[ 98%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/decoder.c.o
+[ 98%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/layer12.c.o
+[ 99%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/layer3.c.o
+[ 99%] Building C object audiowaveform/src/dependencies/libmad-0.15.1b/CMakeFiles/libmad.dir/huffman.c.o
+[100%] Linking C static library liblibmad.a
+make[3]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+[100%] Built target libmad
+make[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+make[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD'
+'../../debug_BUILD/audiowaveform/audiowaveform' -> './audiowaveform'
+'../../debug_BUILD/audiowaveform/audiowaveform_tests' -> './audiowaveform_tests'
+Running main() from gmock_main.cc
+Note: Google Test filter = OptionHandlerTest.shouldConvertMp3ToWavAudio
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OptionHandlerTest
+[ RUN      ] OptionHandlerTest.shouldConvertMp3ToWavAudio
+command_line: ./audiowaveform -i ../test/data/test_file_mono.mp3 -o /tmp/1948-cb7c-07c8-3a5a.wav 1>/tmp/4498-786f-5913-7d36.txt 2>/tmp/da49-c5d5-af06-4e6e.txt
+comparing "/tmp/1948-cb7c-07c8-3a5a.wav" with "../test/data/test_file_mono_converted.wav"
+size = 228234
+command_line: ./audiowaveform -i ../test/data/test_file_mono.mp3 --output-format wav 1>/tmp/d8de-5edf-a945-3e25.wav 2>/tmp/edc5-df1a-7f2b-4a94.txt
+comparing "/tmp/d8de-5edf-a945-3e25.wav" with "../test/data/test_file_mono_converted.wav"
+size = 228234
+command_line: ./audiowaveform --input-format mp3 -o /tmp/7793-5c2a-e3d8-2111.wav 1>/tmp/4d64-89a4-5e22-7e2b.txt 2>/tmp/6baf-a63e-a004-b90d.txt <../test/data/test_file_mono.mp3
+comparing "/tmp/7793-5c2a-e3d8-2111.wav" with "../test/data/test_file_mono_converted.wav"
+size = 228234
+command_line: ./audiowaveform --input-format mp3 --output-format wav 1>/tmp/be29-b87b-29ce-ed25.wav 2>/tmp/9247-68d4-81f2-e9ad.txt <../test/data/test_file_mono.mp3
+comparing "/tmp/be29-b87b-29ce-ed25.wav" with "../test/data/test_file_mono_converted.wav"
+size = 228234
+[       OK ] OptionHandlerTest.shouldConvertMp3ToWavAudio (430 ms)
+[----------] 1 test from OptionHandlerTest (431 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (432 ms total)
+[  PASSED  ] 1 test.
+brothercomplex@Anime-X555BA:~/AndroidStudioProjects/CCodeTesting$

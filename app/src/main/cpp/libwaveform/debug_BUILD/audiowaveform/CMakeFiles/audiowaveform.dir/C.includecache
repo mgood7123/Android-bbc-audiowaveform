@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/madlld-1.1p1/bstdfile.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+errno.h
+-
+sys/types.h
+-
+bstdfile.h
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/madlld-1.1p1/bstdfile.h
+
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/audiowaveform/src/madlld-1.1p1/bstdfile.h
+

@@ -1,0 +1,3 @@
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/LIB_GD/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/LIB_GD/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_6d2a9.dir
+/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/LIB_GD/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir

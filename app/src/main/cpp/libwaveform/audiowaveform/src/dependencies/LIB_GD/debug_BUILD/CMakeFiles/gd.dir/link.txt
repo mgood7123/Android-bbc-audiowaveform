@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libgd.so -o libgd.so CMakeFiles/gd.dir/src/gd.c.o CMakeFiles/gd.dir/src/gdfonts.c.o 

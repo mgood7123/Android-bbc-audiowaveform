@@ -1,21 +1,21 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_2d74d/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_e522c/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_2d74d.dir/build.make CMakeFiles/cmTC_2d74d.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_e522c.dir/build.make CMakeFiles/cmTC_e522c.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2d74d.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2d74d.dir/CheckSymbolExists.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_2d74d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d74d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2d74d.dir/CheckSymbolExists.c.o  -o cmTC_2d74d 
-/usr/bin/ld: CMakeFiles/cmTC_2d74d.dir/CheckSymbolExists.c.o: in function `main':
+Building C object CMakeFiles/cmTC_e522c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e522c.dir/CheckSymbolExists.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e522c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e522c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e522c.dir/CheckSymbolExists.c.o  -o cmTC_e522c 
+/usr/bin/ld: CMakeFiles/cmTC_e522c.dir/CheckSymbolExists.c.o: in function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/cmTC_2d74d.dir/build.make:87: cmTC_2d74d] Error 1
+gmake[2]: *** [CMakeFiles/cmTC_e522c.dir/build.make:87: cmTC_e522c] Error 1
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-gmake[1]: *** [Makefile:121: cmTC_2d74d/fast] Error 2
+gmake[1]: *** [Makefile:121: cmTC_e522c/fast] Error 2
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
 File /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -36,93 +36,93 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_d024d/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_f14de/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_d024d.dir/build.make CMakeFiles/cmTC_d024d.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_f14de.dir/build.make CMakeFiles/cmTC_f14de.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d024d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d024d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d024d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d024d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d024d.dir/CheckFunctionExists.c.o  -o cmTC_d024d -lpthreads 
+Building C object CMakeFiles/cmTC_f14de.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f14de.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f14de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f14de.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f14de.dir/CheckFunctionExists.c.o  -o cmTC_f14de -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/cmTC_d024d.dir/build.make:87: cmTC_d024d] Error 1
+gmake[2]: *** [CMakeFiles/cmTC_f14de.dir/build.make:87: cmTC_f14de] Error 1
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-gmake[1]: *** [Makefile:121: cmTC_d024d/fast] Error 2
+gmake[1]: *** [Makefile:121: cmTC_f14de/fast] Error 2
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file direct.h exists failed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_952b4/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_3fd6d/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_952b4.dir/build.make CMakeFiles/cmTC_952b4.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_3fd6d.dir/build.make CMakeFiles/cmTC_3fd6d.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_952b4.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_952b4.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_3fd6d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3fd6d.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: direct.h: No such file or directory
  #include <direct.h>
           ^~~~~~~~~~
 compilation terminated.
-gmake[2]: *** [CMakeFiles/cmTC_952b4.dir/build.make:66: CMakeFiles/cmTC_952b4.dir/CheckIncludeFile.c.o] Error 1
+gmake[2]: *** [CMakeFiles/cmTC_3fd6d.dir/build.make:66: CMakeFiles/cmTC_3fd6d.dir/CheckIncludeFile.c.o] Error 1
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-gmake[1]: *** [Makefile:121: cmTC_952b4/fast] Error 2
+gmake[1]: *** [Makefile:121: cmTC_3fd6d/fast] Error 2
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file io.h exists failed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_ba69c/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_0e0d5/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_ba69c.dir/build.make CMakeFiles/cmTC_ba69c.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_0e0d5.dir/build.make CMakeFiles/cmTC_0e0d5.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ba69c.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ba69c.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_0e0d5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0e0d5.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
  #include <io.h>
           ^~~~~~
 compilation terminated.
-gmake[2]: *** [CMakeFiles/cmTC_ba69c.dir/build.make:66: CMakeFiles/cmTC_ba69c.dir/CheckIncludeFile.c.o] Error 1
+gmake[2]: *** [CMakeFiles/cmTC_0e0d5.dir/build.make:66: CMakeFiles/cmTC_0e0d5.dir/CheckIncludeFile.c.o] Error 1
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-gmake[1]: *** [Makefile:121: cmTC_ba69c/fast] Error 2
+gmake[1]: *** [Makefile:121: cmTC_0e0d5/fast] Error 2
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
 
 Determining if the function sqlite3_close exists in the sqlite3 failed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_87a0e/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_d0f25/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_87a0e.dir/build.make CMakeFiles/cmTC_87a0e.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_d0f25.dir/build.make CMakeFiles/cmTC_d0f25.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_87a0e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqlite3_close   -o CMakeFiles/cmTC_87a0e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_87a0e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87a0e.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqlite3_close    -rdynamic CMakeFiles/cmTC_87a0e.dir/CheckFunctionExists.c.o  -o cmTC_87a0e -lsqlite3 -lm 
+Building C object CMakeFiles/cmTC_d0f25.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqlite3_close   -o CMakeFiles/cmTC_d0f25.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d0f25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0f25.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqlite3_close    -rdynamic CMakeFiles/cmTC_d0f25.dir/CheckFunctionExists.c.o  -o cmTC_d0f25 -lsqlite3 -lm 
 /usr/bin/ld: cannot find -lsqlite3
 collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/cmTC_87a0e.dir/build.make:87: cmTC_87a0e] Error 1
+gmake[2]: *** [CMakeFiles/cmTC_d0f25.dir/build.make:87: cmTC_d0f25] Error 1
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-gmake[1]: *** [Makefile:121: cmTC_87a0e/fast] Error 2
+gmake[1]: *** [Makefile:121: cmTC_d0f25/fast] Error 2
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
 
 Performing C SOURCE FILE Test CPU_CLIPS_POSITIVE failed with the following compile output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_3d0ae/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_f328e/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_3d0ae.dir/build.make CMakeFiles/cmTC_3d0ae.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_f328e.dir/build.make CMakeFiles/cmTC_f328e.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3d0ae.dir/src.c.o
-/usr/bin/cc   -DCPU_CLIPS_POSITIVE   -o CMakeFiles/cmTC_3d0ae.dir/src.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_3d0ae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d0ae.dir/link.txt --verbose=1
-/usr/bin/cc  -DCPU_CLIPS_POSITIVE    -rdynamic CMakeFiles/cmTC_3d0ae.dir/src.c.o  -o cmTC_3d0ae -lm 
+Building C object CMakeFiles/cmTC_f328e.dir/src.c.o
+/usr/bin/cc   -DCPU_CLIPS_POSITIVE   -o CMakeFiles/cmTC_f328e.dir/src.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f328e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f328e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCPU_CLIPS_POSITIVE    -rdynamic CMakeFiles/cmTC_f328e.dir/src.c.o  -o cmTC_f328e -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -155,15 +155,15 @@ Source file was:
 Performing C SOURCE FILE Test CPU_CLIPS_NEGATIVE failed with the following compile output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_611fc/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_e013b/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_611fc.dir/build.make CMakeFiles/cmTC_611fc.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_e013b.dir/build.make CMakeFiles/cmTC_e013b.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_611fc.dir/src.c.o
-/usr/bin/cc   -DCPU_CLIPS_NEGATIVE   -o CMakeFiles/cmTC_611fc.dir/src.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_611fc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_611fc.dir/link.txt --verbose=1
-/usr/bin/cc  -DCPU_CLIPS_NEGATIVE    -rdynamic CMakeFiles/cmTC_611fc.dir/src.c.o  -o cmTC_611fc -lm 
+Building C object CMakeFiles/cmTC_e013b.dir/src.c.o
+/usr/bin/cc   -DCPU_CLIPS_NEGATIVE   -o CMakeFiles/cmTC_e013b.dir/src.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e013b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e013b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCPU_CLIPS_NEGATIVE    -rdynamic CMakeFiles/cmTC_e013b.dir/src.c.o  -o cmTC_e013b -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 

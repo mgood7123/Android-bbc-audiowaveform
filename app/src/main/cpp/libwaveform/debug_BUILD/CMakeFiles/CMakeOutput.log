@@ -28,15 +28,15 @@ The CXX compiler identification is GNU, found in "/home/brothercomplex/AndroidSt
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_16d25/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_f991c/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_16d25.dir/build.make CMakeFiles/cmTC_16d25.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_f991c.dir/build.make CMakeFiles/cmTC_f991c.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_16d25.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_16d25.dir/testCCompiler.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_16d25
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d25.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_16d25.dir/testCCompiler.c.o  -o cmTC_16d25 
+Building C object CMakeFiles/cmTC_f991c.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f991c.dir/testCCompiler.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f991c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f991c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f991c.dir/testCCompiler.c.o  -o cmTC_f991c 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -44,15 +44,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_19f48/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_0da7a/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_19f48.dir/build.make CMakeFiles/cmTC_19f48.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_0da7a.dir/build.make CMakeFiles/cmTC_0da7a.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_19f48.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_19f48.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_19f48
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19f48.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_19f48.dir/CMakeCCompilerABI.c.o  -o cmTC_19f48 
+Building C object CMakeFiles/cmTC_0da7a.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0da7a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0da7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0da7a.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_0da7a.dir/CMakeCCompilerABI.c.o  -o cmTC_0da7a 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -64,9 +64,9 @@ Thread model: posix
 gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_19f48' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8yXwOt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_19f48 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_19f48.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_19f48' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0da7a' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2Hc1oR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0da7a /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_0da7a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0da7a' '-mtune=generic' '-march=x86-64'
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -75,15 +75,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_19f48/fast"]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_0da7a/fast"]
   ignore line: [gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_19f48.dir/build.make CMakeFiles/cmTC_19f48.dir/build]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_0da7a.dir/build.make CMakeFiles/cmTC_0da7a.dir/build]
   ignore line: [gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_19f48.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_19f48.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_19f48]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19f48.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_19f48.dir/CMakeCCompilerABI.c.o  -o cmTC_19f48 ]
+  ignore line: [Building C object CMakeFiles/cmTC_0da7a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_0da7a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0da7a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0da7a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_0da7a.dir/CMakeCCompilerABI.c.o  -o cmTC_0da7a ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -95,13 +95,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_19f48' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8yXwOt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_19f48 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_19f48.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0da7a' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2Hc1oR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0da7a /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_0da7a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc8yXwOt.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2Hc1oR.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -120,7 +120,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_19f48] ==> ignore
+    arg [cmTC_0da7a] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -132,7 +132,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_19f48.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0da7a.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -164,15 +164,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b25cd/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_f5d57/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_b25cd.dir/build.make CMakeFiles/cmTC_b25cd.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_f5d57.dir/build.make CMakeFiles/cmTC_f5d57.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b25cd.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b25cd.dir/feature_tests.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b25cd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b25cd.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b25cd.dir/feature_tests.c.o  -o cmTC_b25cd 
+Building C object CMakeFiles/cmTC_f5d57.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_f5d57.dir/feature_tests.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f5d57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5d57.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f5d57.dir/feature_tests.c.o  -o cmTC_f5d57 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -186,15 +186,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b5cab/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_266d2/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_b5cab.dir/build.make CMakeFiles/cmTC_b5cab.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_266d2.dir/build.make CMakeFiles/cmTC_266d2.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b5cab.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_b5cab.dir/feature_tests.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b5cab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5cab.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b5cab.dir/feature_tests.c.o  -o cmTC_b5cab 
+Building C object CMakeFiles/cmTC_266d2.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_266d2.dir/feature_tests.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.c
+Linking C executable cmTC_266d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_266d2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_266d2.dir/feature_tests.c.o  -o cmTC_266d2 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -208,15 +208,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_5488c/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_a3df1/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_5488c.dir/build.make CMakeFiles/cmTC_5488c.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_a3df1.dir/build.make CMakeFiles/cmTC_a3df1.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5488c.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_5488c.dir/feature_tests.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5488c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5488c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5488c.dir/feature_tests.c.o  -o cmTC_5488c 
+Building C object CMakeFiles/cmTC_a3df1.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a3df1.dir/feature_tests.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a3df1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3df1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a3df1.dir/feature_tests.c.o  -o cmTC_a3df1 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -228,15 +228,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_2d9b1/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_1739d/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_2d9b1.dir/build.make CMakeFiles/cmTC_2d9b1.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_1739d.dir/build.make CMakeFiles/cmTC_1739d.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2d9b1.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_2d9b1.dir/testCXXCompiler.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_2d9b1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d9b1.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2d9b1.dir/testCXXCompiler.cxx.o  -o cmTC_2d9b1 
+Building CXX object CMakeFiles/cmTC_1739d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1739d.dir/testCXXCompiler.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1739d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1739d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1739d.dir/testCXXCompiler.cxx.o  -o cmTC_1739d 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -244,15 +244,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_6a315/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_de4a3/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_6a315.dir/build.make CMakeFiles/cmTC_6a315.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_de4a3.dir/build.make CMakeFiles/cmTC_de4a3.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6a315.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_6a315.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_6a315
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a315.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_6a315.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6a315 
+Building CXX object CMakeFiles/cmTC_de4a3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_de4a3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_de4a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de4a3.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_de4a3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_de4a3 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -264,9 +264,9 @@ Thread model: posix
 gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6a315' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuQ48JX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6a315 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_6a315.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6a315' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_de4a3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBKTqDg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_de4a3 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_de4a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_de4a3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -275,15 +275,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_6a315/fast"]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_de4a3/fast"]
   ignore line: [gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_6a315.dir/build.make CMakeFiles/cmTC_6a315.dir/build]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_de4a3.dir/build.make CMakeFiles/cmTC_de4a3.dir/build]
   ignore line: [gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_6a315.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_6a315.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_6a315]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a315.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_6a315.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6a315 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_de4a3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_de4a3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_de4a3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de4a3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_de4a3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_de4a3 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -295,13 +295,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6a315' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuQ48JX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6a315 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_6a315.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_de4a3' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBKTqDg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_de4a3 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_de4a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccuQ48JX.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccBKTqDg.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -320,7 +320,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6a315] ==> ignore
+    arg [cmTC_de4a3] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -332,7 +332,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_6a315.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_de4a3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -360,15 +360,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_82e9f/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_7a6a4/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_82e9f.dir/build.make CMakeFiles/cmTC_82e9f.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_7a6a4.dir/build.make CMakeFiles/cmTC_7a6a4.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_82e9f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_82e9f.dir/feature_tests.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_82e9f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82e9f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_82e9f.dir/feature_tests.cxx.o  -o cmTC_82e9f 
+Building CXX object CMakeFiles/cmTC_7a6a4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_7a6a4.dir/feature_tests.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7a6a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a6a4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7a6a4.dir/feature_tests.cxx.o  -o cmTC_7a6a4 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -435,15 +435,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_af99e/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_fc445/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_af99e.dir/build.make CMakeFiles/cmTC_af99e.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_fc445.dir/build.make CMakeFiles/cmTC_fc445.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_af99e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_af99e.dir/feature_tests.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_af99e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af99e.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_af99e.dir/feature_tests.cxx.o  -o cmTC_af99e 
+Building CXX object CMakeFiles/cmTC_fc445.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_fc445.dir/feature_tests.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fc445
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc445.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_fc445.dir/feature_tests.cxx.o  -o cmTC_fc445 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -510,15 +510,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_4c8f2/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_adf30/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_4c8f2.dir/build.make CMakeFiles/cmTC_4c8f2.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_adf30.dir/build.make CMakeFiles/cmTC_adf30.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4c8f2.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_4c8f2.dir/feature_tests.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4c8f2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c8f2.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4c8f2.dir/feature_tests.cxx.o  -o cmTC_4c8f2 
+Building CXX object CMakeFiles/cmTC_adf30.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_adf30.dir/feature_tests.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_adf30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adf30.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_adf30.dir/feature_tests.cxx.o  -o cmTC_adf30 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -585,15 +585,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f9ff1/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_970a8/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_f9ff1.dir/build.make CMakeFiles/cmTC_f9ff1.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_970a8.dir/build.make CMakeFiles/cmTC_970a8.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f9ff1.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f9ff1.dir/feature_tests.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f9ff1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9ff1.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f9ff1.dir/feature_tests.cxx.o  -o cmTC_f9ff1 
+Building CXX object CMakeFiles/cmTC_970a8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_970a8.dir/feature_tests.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_970a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_970a8.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_970a8.dir/feature_tests.cxx.o  -o cmTC_970a8 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -660,15 +660,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_202f0/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_417a3/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_202f0.dir/build.make CMakeFiles/cmTC_202f0.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_417a3.dir/build.make CMakeFiles/cmTC_417a3.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_202f0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_202f0.dir/feature_tests.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_202f0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_202f0.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_202f0.dir/feature_tests.cxx.o  -o cmTC_202f0 
+Building CXX object CMakeFiles/cmTC_417a3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_417a3.dir/feature_tests.cxx.o -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_417a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_417a3.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_417a3.dir/feature_tests.cxx.o  -o cmTC_417a3 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -733,15 +733,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_5199c/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_db448/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_5199c.dir/build.make CMakeFiles/cmTC_5199c.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_db448.dir/build.make CMakeFiles/cmTC_db448.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5199c.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5199c.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5199c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5199c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5199c.dir/CheckIncludeFile.c.o  -o cmTC_5199c 
+Building C object CMakeFiles/cmTC_db448.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_db448.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_db448
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db448.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_db448.dir/CheckIncludeFile.c.o  -o cmTC_db448 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -749,15 +749,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_647c7/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_5ff35/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_647c7.dir/build.make CMakeFiles/cmTC_647c7.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_5ff35.dir/build.make CMakeFiles/cmTC_5ff35.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_647c7.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_647c7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_647c7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_647c7.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_647c7.dir/CheckFunctionExists.c.o  -o cmTC_647c7 -lpthread 
+Building C object CMakeFiles/cmTC_5ff35.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5ff35.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ff35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ff35.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5ff35.dir/CheckFunctionExists.c.o  -o cmTC_5ff35 -lpthread 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -765,15 +765,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_baa3b/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_8a28e/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_baa3b.dir/build.make CMakeFiles/cmTC_baa3b.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_8a28e.dir/build.make CMakeFiles/cmTC_8a28e.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_baa3b.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_baa3b.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_baa3b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baa3b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_baa3b.dir/CheckIncludeFile.c.o  -o cmTC_baa3b 
+Building C object CMakeFiles/cmTC_8a28e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8a28e.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8a28e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a28e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8a28e.dir/CheckIncludeFile.c.o  -o cmTC_8a28e 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -781,15 +781,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_360e2/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_1ffc5/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_360e2.dir/build.make CMakeFiles/cmTC_360e2.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_1ffc5.dir/build.make CMakeFiles/cmTC_1ffc5.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_360e2.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_360e2.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_360e2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_360e2.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_360e2.dir/CheckIncludeFile.c.o  -o cmTC_360e2 
+Building C object CMakeFiles/cmTC_1ffc5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1ffc5.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1ffc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ffc5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1ffc5.dir/CheckIncludeFile.c.o  -o cmTC_1ffc5 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -797,15 +797,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_15c51/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_0750b/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_15c51.dir/build.make CMakeFiles/cmTC_15c51.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_0750b.dir/build.make CMakeFiles/cmTC_0750b.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_15c51.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_15c51.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_15c51
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15c51.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_15c51.dir/CheckIncludeFile.c.o  -o cmTC_15c51 
+Building C object CMakeFiles/cmTC_0750b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0750b.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0750b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0750b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0750b.dir/CheckIncludeFile.c.o  -o cmTC_0750b 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -813,15 +813,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining size of off_t passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_7a679/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_f7c31/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_7a679.dir/build.make CMakeFiles/cmTC_7a679.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_f7c31.dir/build.make CMakeFiles/cmTC_f7c31.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7a679.dir/SIZEOF_OFF_T.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_7a679.dir/SIZEOF_OFF_T.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
-Linking C executable cmTC_7a679
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a679.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7a679.dir/SIZEOF_OFF_T.c.o  -o cmTC_7a679 
+Building C object CMakeFiles/cmTC_f7c31.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f7c31.dir/SIZEOF_OFF_T.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_f7c31
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7c31.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f7c31.dir/SIZEOF_OFF_T.c.o  -o cmTC_f7c31 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -829,15 +829,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file byteswap.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_57a21/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_d0ff8/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_57a21.dir/build.make CMakeFiles/cmTC_57a21.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_d0ff8.dir/build.make CMakeFiles/cmTC_d0ff8.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_57a21.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_57a21.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_57a21
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57a21.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_57a21.dir/CheckIncludeFile.c.o  -o cmTC_57a21 
+Building C object CMakeFiles/cmTC_d0ff8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d0ff8.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d0ff8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0ff8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d0ff8.dir/CheckIncludeFile.c.o  -o cmTC_d0ff8 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -845,15 +845,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file dlfcn.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b64c6/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_d5b34/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_b64c6.dir/build.make CMakeFiles/cmTC_b64c6.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_d5b34.dir/build.make CMakeFiles/cmTC_d5b34.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b64c6.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b64c6.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b64c6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b64c6.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b64c6.dir/CheckIncludeFile.c.o  -o cmTC_b64c6 
+Building C object CMakeFiles/cmTC_d5b34.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d5b34.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d5b34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5b34.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d5b34.dir/CheckIncludeFile.c.o  -o cmTC_d5b34 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -861,15 +861,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file endian.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_082d2/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_ef1dc/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_082d2.dir/build.make CMakeFiles/cmTC_082d2.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_ef1dc.dir/build.make CMakeFiles/cmTC_ef1dc.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_082d2.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_082d2.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_082d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_082d2.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_082d2.dir/CheckIncludeFile.c.o  -o cmTC_082d2 
+Building C object CMakeFiles/cmTC_ef1dc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ef1dc.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ef1dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef1dc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ef1dc.dir/CheckIncludeFile.c.o  -o cmTC_ef1dc 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -877,15 +877,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file inttypes.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_44da5/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_1dad3/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_44da5.dir/build.make CMakeFiles/cmTC_44da5.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_1dad3.dir/build.make CMakeFiles/cmTC_1dad3.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_44da5.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_44da5.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_44da5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44da5.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_44da5.dir/CheckIncludeFile.c.o  -o cmTC_44da5 
+Building C object CMakeFiles/cmTC_1dad3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1dad3.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1dad3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dad3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1dad3.dir/CheckIncludeFile.c.o  -o cmTC_1dad3 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -893,15 +893,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file sys/time.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_ea4b6/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_5939e/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_ea4b6.dir/build.make CMakeFiles/cmTC_ea4b6.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_5939e.dir/build.make CMakeFiles/cmTC_5939e.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ea4b6.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ea4b6.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_ea4b6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea4b6.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ea4b6.dir/CheckIncludeFile.c.o  -o cmTC_ea4b6 
+Building C object CMakeFiles/cmTC_5939e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5939e.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5939e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5939e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5939e.dir/CheckIncludeFile.c.o  -o cmTC_5939e 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -909,15 +909,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file unistd.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b0fab/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_08ad4/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_b0fab.dir/build.make CMakeFiles/cmTC_b0fab.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_08ad4.dir/build.make CMakeFiles/cmTC_08ad4.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b0fab.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b0fab.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b0fab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0fab.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b0fab.dir/CheckIncludeFile.c.o  -o cmTC_b0fab 
+Building C object CMakeFiles/cmTC_08ad4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_08ad4.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_08ad4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08ad4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_08ad4.dir/CheckIncludeFile.c.o  -o cmTC_08ad4 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -925,15 +925,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file locale.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_dee68/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_4e2a0/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_dee68.dir/build.make CMakeFiles/cmTC_dee68.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_4e2a0.dir/build.make CMakeFiles/cmTC_4e2a0.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dee68.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_dee68.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_dee68
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dee68.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dee68.dir/CheckIncludeFile.c.o  -o cmTC_dee68 
+Building C object CMakeFiles/cmTC_4e2a0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4e2a0.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4e2a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e2a0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4e2a0.dir/CheckIncludeFile.c.o  -o cmTC_4e2a0 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -941,15 +941,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the include file sys/wait.h exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_1655d/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_7a257/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_1655d.dir/build.make CMakeFiles/cmTC_1655d.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_7a257.dir/build.make CMakeFiles/cmTC_7a257.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1655d.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1655d.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_1655d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1655d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1655d.dir/CheckIncludeFile.c.o  -o cmTC_1655d 
+Building C object CMakeFiles/cmTC_7a257.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7a257.dir/CheckIncludeFile.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7a257
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a257.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7a257.dir/CheckIncludeFile.c.o  -o cmTC_7a257 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -957,15 +957,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining size of int64_t passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_0cd52/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_902dd/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_0cd52.dir/build.make CMakeFiles/cmTC_0cd52.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_902dd.dir/build.make CMakeFiles/cmTC_902dd.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0cd52.dir/SIZEOF_INT64_T.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0cd52.dir/SIZEOF_INT64_T.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
-Linking C executable cmTC_0cd52
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cd52.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0cd52.dir/SIZEOF_INT64_T.c.o  -o cmTC_0cd52 
+Building C object CMakeFiles/cmTC_902dd.dir/SIZEOF_INT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_902dd.dir/SIZEOF_INT64_T.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
+Linking C executable cmTC_902dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_902dd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_902dd.dir/SIZEOF_INT64_T.c.o  -o cmTC_902dd 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -973,15 +973,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining size of long passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e0ee8/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_af341/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_e0ee8.dir/build.make CMakeFiles/cmTC_e0ee8.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_af341.dir/build.make CMakeFiles/cmTC_af341.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e0ee8.dir/SIZEOF_LONG.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e0ee8.dir/SIZEOF_LONG.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
-Linking C executable cmTC_e0ee8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0ee8.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e0ee8.dir/SIZEOF_LONG.c.o  -o cmTC_e0ee8 
+Building C object CMakeFiles/cmTC_af341.dir/SIZEOF_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_af341.dir/SIZEOF_LONG.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_af341
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af341.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_af341.dir/SIZEOF_LONG.c.o  -o cmTC_af341 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -989,15 +989,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining size of long long passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c9de9/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_f4288/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_c9de9.dir/build.make CMakeFiles/cmTC_c9de9.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_f4288.dir/build.make CMakeFiles/cmTC_f4288.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c9de9.dir/SIZEOF_LONG_LONG.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c9de9.dir/SIZEOF_LONG_LONG.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
-Linking C executable cmTC_c9de9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9de9.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c9de9.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_c9de9 
+Building C object CMakeFiles/cmTC_f4288.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f4288.dir/SIZEOF_LONG_LONG.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_f4288
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4288.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f4288.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_f4288 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1005,15 +1005,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining size of ssize_t passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_248e4/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_6085d/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_248e4.dir/build.make CMakeFiles/cmTC_248e4.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_6085d.dir/build.make CMakeFiles/cmTC_6085d.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_248e4.dir/SIZEOF_SSIZE_T.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_248e4.dir/SIZEOF_SSIZE_T.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
-Linking C executable cmTC_248e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_248e4.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_248e4.dir/SIZEOF_SSIZE_T.c.o  -o cmTC_248e4 
+Building C object CMakeFiles/cmTC_6085d.dir/SIZEOF_SSIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6085d.dir/SIZEOF_SSIZE_T.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
+Linking C executable cmTC_6085d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6085d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6085d.dir/SIZEOF_SSIZE_T.c.o  -o cmTC_6085d 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1021,15 +1021,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining size of wchar_t passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_86c98/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_eafba/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_86c98.dir/build.make CMakeFiles/cmTC_86c98.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_eafba.dir/build.make CMakeFiles/cmTC_eafba.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86c98.dir/SIZEOF_WCHAR_T.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_86c98.dir/SIZEOF_WCHAR_T.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_WCHAR_T.c
-Linking C executable cmTC_86c98
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86c98.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_86c98.dir/SIZEOF_WCHAR_T.c.o  -o cmTC_86c98 
+Building C object CMakeFiles/cmTC_eafba.dir/SIZEOF_WCHAR_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eafba.dir/SIZEOF_WCHAR_T.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_WCHAR_T.c
+Linking C executable cmTC_eafba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eafba.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eafba.dir/SIZEOF_WCHAR_T.c.o  -o cmTC_eafba 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1037,15 +1037,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining size of int64_t passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_ce061/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_0005a/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_ce061.dir/build.make CMakeFiles/cmTC_ce061.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_0005a.dir/build.make CMakeFiles/cmTC_0005a.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ce061.dir/SIZEOF_SF_COUNT_T.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ce061.dir/SIZEOF_SF_COUNT_T.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_SF_COUNT_T.c
-Linking C executable cmTC_ce061
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce061.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ce061.dir/SIZEOF_SF_COUNT_T.c.o  -o cmTC_ce061 
+Building C object CMakeFiles/cmTC_0005a.dir/SIZEOF_SF_COUNT_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0005a.dir/SIZEOF_SF_COUNT_T.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/SIZEOF_SF_COUNT_T.c
+Linking C executable cmTC_0005a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0005a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0005a.dir/SIZEOF_SF_COUNT_T.c.o  -o cmTC_0005a 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1053,19 +1053,19 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function floor exists in the m passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_3a400/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_52de9/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_3a400.dir/build.make CMakeFiles/cmTC_3a400.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_52de9.dir/build.make CMakeFiles/cmTC_52de9.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a400.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_3a400.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTC_52de9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_52de9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
 <command-line>: warning: conflicting types for built-in function ‘floor’ [-Wbuiltin-declaration-mismatch]
 /usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
    CHECK_FUNCTION_EXISTS(void);
    ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_3a400
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a400.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=floor    -rdynamic CMakeFiles/cmTC_3a400.dir/CheckFunctionExists.c.o  -o cmTC_3a400 -lm 
+Linking C executable cmTC_52de9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52de9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=floor    -rdynamic CMakeFiles/cmTC_52de9.dir/CheckFunctionExists.c.o  -o cmTC_52de9 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1073,15 +1073,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function fstat exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_fb81c/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_77afa/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_fb81c.dir/build.make CMakeFiles/cmTC_fb81c.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_77afa.dir/build.make CMakeFiles/cmTC_77afa.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fb81c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fstat   -o CMakeFiles/cmTC_fb81c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fb81c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb81c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fstat    -rdynamic CMakeFiles/cmTC_fb81c.dir/CheckFunctionExists.c.o  -o cmTC_fb81c -lm 
+Building C object CMakeFiles/cmTC_77afa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fstat   -o CMakeFiles/cmTC_77afa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_77afa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77afa.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fstat    -rdynamic CMakeFiles/cmTC_77afa.dir/CheckFunctionExists.c.o  -o cmTC_77afa -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1089,15 +1089,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function fstat64 exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_ba920/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_5862f/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_ba920.dir/build.make CMakeFiles/cmTC_ba920.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_5862f.dir/build.make CMakeFiles/cmTC_5862f.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ba920.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fstat64   -o CMakeFiles/cmTC_ba920.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ba920
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba920.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fstat64    -rdynamic CMakeFiles/cmTC_ba920.dir/CheckFunctionExists.c.o  -o cmTC_ba920 -lm 
+Building C object CMakeFiles/cmTC_5862f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fstat64   -o CMakeFiles/cmTC_5862f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5862f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5862f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fstat64    -rdynamic CMakeFiles/cmTC_5862f.dir/CheckFunctionExists.c.o  -o cmTC_5862f -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1105,15 +1105,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function gettimeofday exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_49700/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_82c48/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_49700.dir/build.make CMakeFiles/cmTC_49700.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_82c48.dir/build.make CMakeFiles/cmTC_82c48.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_49700.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_49700.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_49700
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49700.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_49700.dir/CheckFunctionExists.c.o  -o cmTC_49700 -lm 
+Building C object CMakeFiles/cmTC_82c48.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_82c48.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82c48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82c48.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_82c48.dir/CheckFunctionExists.c.o  -o cmTC_82c48 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1121,15 +1121,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function gmtime exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_47ca9/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_19699/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_47ca9.dir/build.make CMakeFiles/cmTC_47ca9.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_19699.dir/build.make CMakeFiles/cmTC_19699.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_47ca9.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime   -o CMakeFiles/cmTC_47ca9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_47ca9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47ca9.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gmtime    -rdynamic CMakeFiles/cmTC_47ca9.dir/CheckFunctionExists.c.o  -o cmTC_47ca9 -lm 
+Building C object CMakeFiles/cmTC_19699.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime   -o CMakeFiles/cmTC_19699.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19699
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19699.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gmtime    -rdynamic CMakeFiles/cmTC_19699.dir/CheckFunctionExists.c.o  -o cmTC_19699 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1137,15 +1137,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function gmtime_r exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_33177/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_46ee9/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_33177.dir/build.make CMakeFiles/cmTC_33177.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_46ee9.dir/build.make CMakeFiles/cmTC_46ee9.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_33177.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime_r   -o CMakeFiles/cmTC_33177.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_33177
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33177.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gmtime_r    -rdynamic CMakeFiles/cmTC_33177.dir/CheckFunctionExists.c.o  -o cmTC_33177 -lm 
+Building C object CMakeFiles/cmTC_46ee9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime_r   -o CMakeFiles/cmTC_46ee9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_46ee9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46ee9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gmtime_r    -rdynamic CMakeFiles/cmTC_46ee9.dir/CheckFunctionExists.c.o  -o cmTC_46ee9 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1153,15 +1153,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function localtime exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a7376/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_3c6eb/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_a7376.dir/build.make CMakeFiles/cmTC_a7376.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_3c6eb.dir/build.make CMakeFiles/cmTC_3c6eb.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a7376.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime   -o CMakeFiles/cmTC_a7376.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a7376
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7376.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=localtime    -rdynamic CMakeFiles/cmTC_a7376.dir/CheckFunctionExists.c.o  -o cmTC_a7376 -lm 
+Building C object CMakeFiles/cmTC_3c6eb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime   -o CMakeFiles/cmTC_3c6eb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3c6eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c6eb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=localtime    -rdynamic CMakeFiles/cmTC_3c6eb.dir/CheckFunctionExists.c.o  -o cmTC_3c6eb -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1169,15 +1169,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function localtime_r exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_8d009/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_ca1f7/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_8d009.dir/build.make CMakeFiles/cmTC_8d009.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_ca1f7.dir/build.make CMakeFiles/cmTC_ca1f7.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8d009.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime_r   -o CMakeFiles/cmTC_8d009.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8d009
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d009.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=localtime_r    -rdynamic CMakeFiles/cmTC_8d009.dir/CheckFunctionExists.c.o  -o cmTC_8d009 -lm 
+Building C object CMakeFiles/cmTC_ca1f7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime_r   -o CMakeFiles/cmTC_ca1f7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ca1f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca1f7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=localtime_r    -rdynamic CMakeFiles/cmTC_ca1f7.dir/CheckFunctionExists.c.o  -o cmTC_ca1f7 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1185,15 +1185,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function lseek exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_badd0/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_78ba4/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_badd0.dir/build.make CMakeFiles/cmTC_badd0.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_78ba4.dir/build.make CMakeFiles/cmTC_78ba4.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_badd0.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lseek   -o CMakeFiles/cmTC_badd0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_badd0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_badd0.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lseek    -rdynamic CMakeFiles/cmTC_badd0.dir/CheckFunctionExists.c.o  -o cmTC_badd0 -lm 
+Building C object CMakeFiles/cmTC_78ba4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lseek   -o CMakeFiles/cmTC_78ba4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_78ba4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78ba4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lseek    -rdynamic CMakeFiles/cmTC_78ba4.dir/CheckFunctionExists.c.o  -o cmTC_78ba4 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1201,15 +1201,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function open exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c6efc/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_1f7de/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_c6efc.dir/build.make CMakeFiles/cmTC_c6efc.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_1f7de.dir/build.make CMakeFiles/cmTC_1f7de.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6efc.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=open   -o CMakeFiles/cmTC_c6efc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c6efc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6efc.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=open    -rdynamic CMakeFiles/cmTC_c6efc.dir/CheckFunctionExists.c.o  -o cmTC_c6efc -lm 
+Building C object CMakeFiles/cmTC_1f7de.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=open   -o CMakeFiles/cmTC_1f7de.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1f7de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f7de.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=open    -rdynamic CMakeFiles/cmTC_1f7de.dir/CheckFunctionExists.c.o  -o cmTC_1f7de -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1217,15 +1217,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function read exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b5534/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_5e76d/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_b5534.dir/build.make CMakeFiles/cmTC_b5534.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_5e76d.dir/build.make CMakeFiles/cmTC_5e76d.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b5534.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=read   -o CMakeFiles/cmTC_b5534.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b5534
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5534.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=read    -rdynamic CMakeFiles/cmTC_b5534.dir/CheckFunctionExists.c.o  -o cmTC_b5534 -lm 
+Building C object CMakeFiles/cmTC_5e76d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=read   -o CMakeFiles/cmTC_5e76d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5e76d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e76d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=read    -rdynamic CMakeFiles/cmTC_5e76d.dir/CheckFunctionExists.c.o  -o cmTC_5e76d -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1233,15 +1233,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function write exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cd6ce/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_2a600/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_cd6ce.dir/build.make CMakeFiles/cmTC_cd6ce.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_2a600.dir/build.make CMakeFiles/cmTC_2a600.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cd6ce.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=write   -o CMakeFiles/cmTC_cd6ce.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_cd6ce
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd6ce.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=write    -rdynamic CMakeFiles/cmTC_cd6ce.dir/CheckFunctionExists.c.o  -o cmTC_cd6ce -lm 
+Building C object CMakeFiles/cmTC_2a600.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=write   -o CMakeFiles/cmTC_2a600.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2a600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a600.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=write    -rdynamic CMakeFiles/cmTC_2a600.dir/CheckFunctionExists.c.o  -o cmTC_2a600 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1249,19 +1249,19 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function lrint exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a788c/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_179f8/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_a788c.dir/build.make CMakeFiles/cmTC_a788c.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_179f8.dir/build.make CMakeFiles/cmTC_179f8.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a788c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lrint   -o CMakeFiles/cmTC_a788c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTC_179f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lrint   -o CMakeFiles/cmTC_179f8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
 <command-line>: warning: conflicting types for built-in function ‘lrint’ [-Wbuiltin-declaration-mismatch]
 /usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
    CHECK_FUNCTION_EXISTS(void);
    ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_a788c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a788c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lrint    -rdynamic CMakeFiles/cmTC_a788c.dir/CheckFunctionExists.c.o  -o cmTC_a788c -lm 
+Linking C executable cmTC_179f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_179f8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lrint    -rdynamic CMakeFiles/cmTC_179f8.dir/CheckFunctionExists.c.o  -o cmTC_179f8 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1269,19 +1269,19 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function lrintf exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_9b989/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_d9e4e/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_9b989.dir/build.make CMakeFiles/cmTC_9b989.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_d9e4e.dir/build.make CMakeFiles/cmTC_d9e4e.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9b989.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lrintf   -o CMakeFiles/cmTC_9b989.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTC_d9e4e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lrintf   -o CMakeFiles/cmTC_d9e4e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
 <command-line>: warning: conflicting types for built-in function ‘lrintf’ [-Wbuiltin-declaration-mismatch]
 /usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
    CHECK_FUNCTION_EXISTS(void);
    ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_9b989
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b989.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lrintf    -rdynamic CMakeFiles/cmTC_9b989.dir/CheckFunctionExists.c.o  -o cmTC_9b989 -lm 
+Linking C executable cmTC_d9e4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9e4e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lrintf    -rdynamic CMakeFiles/cmTC_d9e4e.dir/CheckFunctionExists.c.o  -o cmTC_d9e4e -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1289,15 +1289,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function ftruncate exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_dcc76/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_31098/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_dcc76.dir/build.make CMakeFiles/cmTC_dcc76.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_31098.dir/build.make CMakeFiles/cmTC_31098.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dcc76.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftruncate   -o CMakeFiles/cmTC_dcc76.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_dcc76
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcc76.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ftruncate    -rdynamic CMakeFiles/cmTC_dcc76.dir/CheckFunctionExists.c.o  -o cmTC_dcc76 -lm 
+Building C object CMakeFiles/cmTC_31098.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftruncate   -o CMakeFiles/cmTC_31098.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_31098
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31098.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ftruncate    -rdynamic CMakeFiles/cmTC_31098.dir/CheckFunctionExists.c.o  -o cmTC_31098 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1305,15 +1305,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function fsync exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_af2e4/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_eba15/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_af2e4.dir/build.make CMakeFiles/cmTC_af2e4.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_eba15.dir/build.make CMakeFiles/cmTC_eba15.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_af2e4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fsync   -o CMakeFiles/cmTC_af2e4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_af2e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af2e4.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fsync    -rdynamic CMakeFiles/cmTC_af2e4.dir/CheckFunctionExists.c.o  -o cmTC_af2e4 -lm 
+Building C object CMakeFiles/cmTC_eba15.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fsync   -o CMakeFiles/cmTC_eba15.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eba15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eba15.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fsync    -rdynamic CMakeFiles/cmTC_eba15.dir/CheckFunctionExists.c.o  -o cmTC_eba15 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1321,15 +1321,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function pipe exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_04bb8/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_ac956/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_04bb8.dir/build.make CMakeFiles/cmTC_04bb8.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_ac956.dir/build.make CMakeFiles/cmTC_ac956.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_04bb8.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe   -o CMakeFiles/cmTC_04bb8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_04bb8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04bb8.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pipe    -rdynamic CMakeFiles/cmTC_04bb8.dir/CheckFunctionExists.c.o  -o cmTC_04bb8 -lm 
+Building C object CMakeFiles/cmTC_ac956.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe   -o CMakeFiles/cmTC_ac956.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ac956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac956.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pipe    -rdynamic CMakeFiles/cmTC_ac956.dir/CheckFunctionExists.c.o  -o cmTC_ac956 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1337,15 +1337,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function setlocale exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_4e538/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_77dfe/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_4e538.dir/build.make CMakeFiles/cmTC_4e538.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_77dfe.dir/build.make CMakeFiles/cmTC_77dfe.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4e538.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setlocale   -o CMakeFiles/cmTC_4e538.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4e538
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e538.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setlocale    -rdynamic CMakeFiles/cmTC_4e538.dir/CheckFunctionExists.c.o  -o cmTC_4e538 -lm 
+Building C object CMakeFiles/cmTC_77dfe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setlocale   -o CMakeFiles/cmTC_77dfe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_77dfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77dfe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setlocale    -rdynamic CMakeFiles/cmTC_77dfe.dir/CheckFunctionExists.c.o  -o cmTC_77dfe -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1353,15 +1353,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the function waitpid exists passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_033ad/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_b2dde/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_033ad.dir/build.make CMakeFiles/cmTC_033ad.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_b2dde.dir/build.make CMakeFiles/cmTC_b2dde.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_033ad.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=waitpid   -o CMakeFiles/cmTC_033ad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_033ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_033ad.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=waitpid    -rdynamic CMakeFiles/cmTC_033ad.dir/CheckFunctionExists.c.o  -o cmTC_033ad -lm 
+Building C object CMakeFiles/cmTC_b2dde.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=waitpid   -o CMakeFiles/cmTC_b2dde.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b2dde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2dde.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=waitpid    -rdynamic CMakeFiles/cmTC_b2dde.dir/CheckFunctionExists.c.o  -o cmTC_b2dde -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1369,15 +1369,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the S_IRGRP exist passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_9efdd/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_59ec0/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_9efdd.dir/build.make CMakeFiles/cmTC_9efdd.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_59ec0.dir/build.make CMakeFiles/cmTC_59ec0.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9efdd.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_9efdd.dir/CheckSymbolExists.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_9efdd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9efdd.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9efdd.dir/CheckSymbolExists.c.o  -o cmTC_9efdd -lm 
+Building C object CMakeFiles/cmTC_59ec0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_59ec0.dir/CheckSymbolExists.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_59ec0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59ec0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_59ec0.dir/CheckSymbolExists.c.o  -o cmTC_59ec0 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1399,15 +1399,15 @@ int main(int argc, char** argv)
 Determining size of unsigned short passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_ec23b/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_41ef7/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_ec23b.dir/build.make CMakeFiles/cmTC_ec23b.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_41ef7.dir/build.make CMakeFiles/cmTC_41ef7.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ec23b.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ec23b.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
-Linking C executable cmTC_ec23b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec23b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ec23b.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_ec23b -lm 
+Building C object CMakeFiles/cmTC_41ef7.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_41ef7.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_41ef7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41ef7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_41ef7.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_41ef7 -lm 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 
@@ -1415,15 +1415,15 @@ gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTes
 Determining if the system is big endian passed with the following output:
 Change Dir: /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_3adb6/fast"
+Run Build Command:"/usr/bin/gmake" "cmTC_f02c2/fast"
 gmake[1]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_3adb6.dir/build.make CMakeFiles/cmTC_3adb6.dir/build
+/usr/bin/gmake -f CMakeFiles/cmTC_f02c2.dir/build.make CMakeFiles/cmTC_f02c2.dir/build
 gmake[2]: Entering directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3adb6.dir/TestEndianess.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3adb6.dir/TestEndianess.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTC_3adb6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3adb6.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3adb6.dir/TestEndianess.c.o  -o cmTC_3adb6 
+Building C object CMakeFiles/cmTC_f02c2.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f02c2.dir/TestEndianess.c.o   -c /home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_f02c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f02c2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f02c2.dir/TestEndianess.c.o  -o cmTC_f02c2 
 gmake[2]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/brothercomplex/AndroidStudioProjects/CCodeTesting/app/src/main/cpp/libwaveform/debug_BUILD/CMakeFiles/CMakeTmp'
 

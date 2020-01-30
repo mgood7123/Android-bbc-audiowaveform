@@ -9,7 +9,7 @@ cd ../libmad-0.15.1b
 make
 
 # remove auto* directories that are generated and can cause errors in git commands
-rm -v auto*
+rm -rfv auto*
 
 cd ../../../../
 
